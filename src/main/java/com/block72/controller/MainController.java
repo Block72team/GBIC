@@ -13,6 +13,28 @@ public class MainController {
 
     @GetMapping("/")
     public String index() {
-        return "index";
+        return "homepage";
     }
+
+    @GetMapping("/contact")
+    public String contact() {
+        return "gbic-contact";
+    }
+
+    @GetMapping("/portfolio")
+    public String subscribe() {
+        return "gbic-portfolio";
+    }
+
+    @GetMapping("/career")
+    public String policy() {
+        return "gbic-career";
+    }
+
+    @GetMapping("/team")
+    public String team() {
+        return "gbic-team";
+    }
+
+
 }
